@@ -1,7 +1,10 @@
 import React from 'react';
+import RestEz from '../../container/RestEz';
 
 export default function App() {
-  return <h1>Hello World</h1>;
+  return (
+    <RestEz />
+  );
 }
 
 // Npm I -D node-fetch

@@ -3,7 +3,7 @@ import React from 'react';
 const Header = () => {
   return (
     <header>
-      <h1> Rest-Ez</h1>
+      <h1> RestEz</h1>
     </header>
   );
 };
