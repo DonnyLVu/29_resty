@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Input = ({ url, selectedMethod, body, onSubmit, onChange }) => {
+const Input = ({ url, method, body, onSubmit, onChange }) => {
   return (
     <>
       <form onSubmit={onSubmit}>
@@ -16,28 +16,28 @@ const Input = ({ url, selectedMethod, body, onSubmit, onChange }) => {
           <input type="radio"
             name="method"
             value="GET"
-            checked={selectedMethod === 'GET'}
+            checked={method === 'GET'}
             onChange={onChange} />
 
           <label htmlFor="post">POST</label>
           <input type="radio"
             name="method"
             value="POST"
-            checked={selectedMethod === 'POST'}
+            checked={method === 'POST'}
             onChange={onChange} />
 
           <label htmlFor="put">PUT</label>
           <input type="radio"
             name="method"
             value="PUT"
-            checked={selectedMethod === 'PUT'}
+            checked={method === 'PUT'}
             onChange={onChange} />
 
           <label htmlFor="delete">DELETE</label>
           <input type="radio"
             name="method"
             value="DELETE"
-            checked={selectedMethod === 'DELETE'}
+            checked={method === 'DELETE'}
             onChange={onChange} />
         </div>
 
@@ -54,7 +54,7 @@ const Input = ({ url, selectedMethod, body, onSubmit, onChange }) => {
 };
 Input.propTypes = {
   url: PropTypes.string.isRequired,
-  selectedMethod: PropTypes.string.isRequired,
+  method: PropTypes.string.isRequired,
   body: PropTypes.string.isRequired,
   onSubmit: PropTypes.func.isRequired,
   onChange: PropTypes.func.isRequired
