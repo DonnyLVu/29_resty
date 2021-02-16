@@ -3,6 +3,7 @@ import Header from '../components/header/Header';
 import Input from '../components/input/Input';
 import Results from '../components/result/Results';
 import { fetchApi } from '../services/Fetch';
+import styles from './RestEz.css';
 
 export default class RestEz extends Component {
   state = {
@@ -33,13 +34,15 @@ export default class RestEz extends Component {
     return (
       <>
         <Header />
-        <Input
-          url={url}
-          method={method}
-          body={body}
-          onSubmit={this.handleSubmit}
-          onChange={this.handleChange} />
-        <Results results={results} />
+        <section className={styles.RestEz}>
+          <Input
+            url={url}
+            method={method}
+            body={body}
+            onSubmit={this.handleSubmit}
+            onChange={this.handleChange} />
+          <Results results={results} />
+        </section>
       </>
     );
   }
