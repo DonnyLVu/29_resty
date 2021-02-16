@@ -12,7 +12,7 @@ const Input = ({ url, method, body, onSubmit, onChange }) => {
           onChange={onChange} />
 
         <div>
-          <label htmlFor="get">GET</label>
+          <label data-testid="get">GET</label>
           <input type="radio"
             name="method"
             value="GET"

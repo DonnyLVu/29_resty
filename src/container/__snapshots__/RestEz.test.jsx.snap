@@ -1,7 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Input component renders Input 1`] = `
+exports[`RestEz component renders RestEz 1`] = `
 <DocumentFragment>
+  <header>
+    <h1>
+       RestEz
+    </h1>
+  </header>
   <form>
     <input
       name="url"
@@ -59,5 +64,6 @@ exports[`Input component renders Input 1`] = `
       placeholder="Raw JSON"
     />
   </form>
+  <div />
 </DocumentFragment>
 `;
