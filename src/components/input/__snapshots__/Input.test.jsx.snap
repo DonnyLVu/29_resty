@@ -2,7 +2,9 @@
 
 exports[`Input component renders Input 1`] = `
 <DocumentFragment>
-  <form>
+  <form
+    class="Input"
+  >
     <input
       name="url"
       placeholder="This is the URL"

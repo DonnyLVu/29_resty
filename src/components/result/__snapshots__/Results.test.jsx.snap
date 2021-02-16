@@ -2,6 +2,8 @@
 
 exports[`Results component renders Results 1`] = `
 <DocumentFragment>
-  <div />
+  <div
+    class="Results"
+  />
 </DocumentFragment>
 `;
