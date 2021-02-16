@@ -1,10 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from './Input.css';
 
 const Input = ({ url, method, body, onSubmit, onChange }) => {
   return (
     <>
-      <form onSubmit={onSubmit}>
+      <form onSubmit={onSubmit} className={styles.Input}>
         <input type="text"
           name="url"
           placeholder="This is the URL"

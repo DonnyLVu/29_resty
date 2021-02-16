@@ -9,7 +9,9 @@ exports[`RestEz component renders RestEz 1`] = `
        RestEz
     </h1>
   </header>
-  <form>
+  <form
+    class="Input"
+  >
     <input
       name="url"
       placeholder="This is the URL"
