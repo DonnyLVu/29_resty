@@ -2,7 +2,9 @@
 
 exports[`RestEz component renders RestEz 1`] = `
 <DocumentFragment>
-  <header>
+  <header
+    class="Header"
+  >
     <h1>
        RestEz
     </h1>
