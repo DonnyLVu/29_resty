@@ -1,0 +1,9 @@
+.Results {
+  background-color: white;
+  height: 28vw;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 10px outset #1C6EA4;
+  overflow: auto;
+  border-radius: 10px;
+}
