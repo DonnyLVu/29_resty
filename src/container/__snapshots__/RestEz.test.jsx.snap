@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RestEz component renders RestEz 1`] = `
+<DocumentFragment>
+  <header>
+    <h1>
+       RestEz
+    </h1>
+  </header>
+  <form>
+    <input
+      name="url"
+      placeholder="This is the URL"
+      type="text"
+      value=""
+    />
+    <div>
+      <label
+        data-testid="get"
+      >
+        GET
+      </label>
+      <input
+        name="method"
+        type="radio"
+        value="GET"
+      />
+      <label
+        for="post"
+      >
+        POST
+      </label>
+      <input
+        name="method"
+        type="radio"
+        value="POST"
+      />
+      <label
+        for="put"
+      >
+        PUT
+      </label>
+      <input
+        name="method"
+        type="radio"
+        value="PUT"
+      />
+      <label
+        for="delete"
+      >
+        DELETE
+      </label>
+      <input
+        name="method"
+        type="radio"
+        value="DELETE"
+      />
+    </div>
+    <button>
+      Hit it
+    </button>
+    <textarea
+      name="body"
+      placeholder="Raw JSON"
+    />
+  </form>
+  <div />
+</DocumentFragment>
+`;
